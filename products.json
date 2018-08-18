@@ -118,5 +118,23 @@
         "Name":"Trimmer",
         "Description":"used to trim hair",
         "Price":1599.00
+    },
+    {
+        "id":21,
+        "Name":"Curtain",
+        "Description":"Used as home decoration",
+        "Price":799.00
+    },
+    {
+        "id":22,
+        "Name":"Phone",
+        "Description":"used for communication",
+        "Price":15999.00
+    },
+    {
+        "id":23,
+        "Name":"Microwave Oven",
+        "Description":"used to cooking food",
+        "Price":4599.00
     }
 ]
