@@ -1,0 +1,62 @@
+[
+    {
+        "id":1,
+        "Name": "Scissors",
+        "Description": "Use this to cut stuff",
+        "Price"  :40.00
+    },
+    {
+        "id":2,
+        "Name": "Steak Knife",
+        "Description": "Use this to eat food",
+        "Price"  : 150.77
+    },
+    {
+        "id":3,
+        "Name": "Skewers",
+        "Description": "Use this to roast food",
+        "Price"  :478.99
+    },
+    {
+        "id":4,
+        "Name": "Baking Tray",
+        "Description": "Use this to bake Food",
+        "Price"  : 564.66
+    },
+    {
+        "id":5,
+        "Name": "Data",
+        "Description": "Use this to store data",
+        "Price"  : 45.55
+    },
+    {
+        "id":6,
+        "Name": "Pen",
+        "Description": "Use this to write stuff",
+        "Price"  :10.00
+    },
+    {
+        "id":7,
+        "Name": "Chair",
+        "Description": "Use this to sit",
+        "Price"  :899.00
+    },
+    {
+        "id":8,
+        "Name": "Dinning Table",
+        "Description": "Use this for dinner",
+        "Price"  : 7000.00
+    },
+    {
+        "id":9,
+        "Name": "Comb",
+        "Description": "Use this to cut stuff",
+        "Price"  : 15.00
+    },
+    {
+        "id":10,
+        "Name": "Bed",
+        "Description": "Use this to Sleep ",
+        "Price"  : 10000.00
+    }
+]
