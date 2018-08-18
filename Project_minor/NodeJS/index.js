@@ -21,6 +21,7 @@ app.use(bodyParser.json());
 var expressServer = app.post('/rest/api/post', (req, res) => {
     console.log(req.body);
     productData.push(req.body);
+    res.send(productData);
     fs.writeFileSync('products.json', JSON.stringify(productData));
 });
 

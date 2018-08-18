@@ -1,140 +1,130 @@
 [
-    {
-        "id": 1,
-        "Name": "Scissors",
-        "Description": "Use this to cut stuff",
-        "Price": 40
-    },
-    {
-        "id": 2,
-        "Name": "Steak Knife",
-        "Description": "Use this to eat food",
-        "Price": 150.77
-    },
-    {
-        "id": 3,
-        "Name": "Skewers",
-        "Description": "Use this to roast food",
-        "Price": 478.99
-    },
-    {
-        "id": 4,
-        "Name": "Baking Tray",
-        "Description": "Use this to bake Food",
-        "Price": 564.66
-    },
-    {
-        "id": 5,
-        "Name": "Data",
-        "Description": "Use this to store data",
-        "Price": 45.55
-    },
-    {
-        "id": 6,
-        "Name": "Pen",
-        "Description": "Use this to write stuff",
-        "Price": 10
-    },
-    {
-        "id": 7,
-        "Name": "Chair",
-        "Description": "Use this to sit",
-        "Price": 899
-    },
-    {
-        "id": 8,
-        "Name": "Dinning Table",
-        "Description": "Use this for dinner",
-        "Price": 7000
-    },
-    {
-        "id": 9,
-        "Name": "Comb",
-        "Description": "Use this to cut stuff",
-        "Price": 15
-    },
-    {
-        "id": 10,
-        "Name": "Bed",
-        "Description": "Use this to Sleep ",
-        "Price": 10000
-    },
-    {
-        "id": 11,
-        "Name": "Pressure Cooker",
-        "Description": "used to boil food",
-        "Price": 1899
-    },
-    {
-        "id": 12,
-        "Name": "Juicer",
-        "Description": "used to make juice",
-        "Price": 1599
-    },
-    {
-        "id": 13,
-        "Name": "Water Purifier",
-        "Description": "Used to purify water",
-        "Price": 3999
-    },
-    {
-        "id": 14,
-        "Name": "Air Conditioner",
-        "Description": "Used to cool room",
-        "Price": 35999
-    },
-    {
-        "id": 15,
-        "Name": "Dish Washer",
-        "Description": "used to wash dishes",
-        "Price": 25500
-    },
-    {
-        "id": 16,
-        "Name": "Speaker",
-        "Description": "Used to play music",
-        "Price": 1599
-    },
-    {
-        "id": 17,
-        "Name": "Matress",
-        "Description": "used on bed",
-        "Price": 1500
-    },
-    {
-        "id": 18,
-        "Name": "Television",
-        "Description": "Used for entertainment",
-        "Price": 15000
-    },
-    {
-        "id": 19,
-        "Name": "Washing Machine",
-        "Description": "Used for washing clothes",
-        "Price": 9999
-    },
-    {
-        "id": 20,
-        "Name": "Trimmer",
-        "Description": "used to trim hair",
-        "Price": 1599
-    },
-    {
-        "id": 21,
-        "Name": "Curtain",
-        "Description": "Used as home decoration",
-        "Price": 799
-    },
-    {
-        "id": 22,
-        "Name": "Phone",
-        "Description": "used for communication",
-        "Price": 15999
-    },
-    {
-        "id": 23,
-        "Name": "Microwave Oven",
-        "Description": "used to cooking food",
-        "Price": 4599
-    }
+  {
+    "id": 1,
+    "Name": "Scissors",
+    "Description": "Use this to cut stuff",
+    "Price": 40
+  },
+  {
+    "id": 2,
+    "Name": "Steak Knife",
+    "Description": "Use this to eat food",
+    "Price": 150.77
+  },
+  {
+    "id": 3,
+    "Name": "Skewers",
+    "Description": "Use this to roast food",
+    "Price": 478.99
+  },
+  {
+    "id": 4,
+    "Name": "Baking Tray",
+    "Description": "Use this to bake Food",
+    "Price": 750
+  },
+  {
+    "id": 5,
+    "Name": "Charger",
+    "Description": "Use this to charge battery",
+    "Price": 150
+  },
+  {
+    "id": 6,
+    "Name": "Pen",
+    "Description": "Use this to write stuff",
+    "Price": 10
+  },
+  { "id": 7, "Name": "Chair", "Description": "Use this to sit", "Price": 899 },
+  {
+    "id": 8,
+    "Name": "Dinning Table",
+    "Description": "Use this for dinner",
+    "Price": 7000
+  },
+  {
+    "id": 9,
+    "Name": "Comb",
+    "Description": "Use this to cut stuff",
+    "Price": 15
+  },
+  {
+    "id": 10,
+    "Name": "Bed",
+    "Description": "Use this to Sleep ",
+    "Price": 10000
+  },
+  {
+    "id": 11,
+    "Name": "Pressure Cooker",
+    "Description": "used to boil food",
+    "Price": 1899
+  },
+  {
+    "id": 12,
+    "Name": "Juicer",
+    "Description": "used to make juice",
+    "Price": 1599
+  },
+  {
+    "id": 13,
+    "Name": "Water Purifier",
+    "Description": "Used to purify water",
+    "Price": 3999
+  },
+  {
+    "id": 14,
+    "Name": "Air Conditioner",
+    "Description": "Used to cool room",
+    "Price": 35999
+  },
+  {
+    "id": 15,
+    "Name": "Dish Washer",
+    "Description": "used to wash dishes",
+    "Price": 25500
+  },
+  {
+    "id": 16,
+    "Name": "Speaker",
+    "Description": "Used to play music",
+    "Price": 1599
+  },
+  { "id": 17, "Name": "Matress", "Description": "used on bed", "Price": 1500 },
+  {
+    "id": 18,
+    "Name": "Television",
+    "Description": "Used for entertainment",
+    "Price": 15000
+  },
+  {
+    "id": 19,
+    "Name": "Washing Machine",
+    "Description": "Used for washing clothes",
+    "Price": 9999
+  },
+  {
+    "id": 20,
+    "Name": "Trimmer",
+    "Description": "used to trim hair",
+    "Price": 1599
+  },
+  {
+    "id": 21,
+    "Name": "Curtain",
+    "Description": "Used as home decoration",
+    "Price": 799
+  },
+  {
+    "id": 22,
+    "Name": "Phone",
+    "Description": "used for communication",
+    "Price": 15999
+  },
+  {
+    "id": 23,
+    "Name": "Microwave Oven",
+    "Description": "used to cooking food",
+    "Price": 4599
+  }
 ]
