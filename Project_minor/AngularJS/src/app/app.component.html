@@ -1,0 +1,139 @@
+<div class="container">
+  <div style="text-align:center">
+    <h1>Welcome to Product Application!</h1>
+    <h2> Product List!</h2>
+  </div>
+  <table class="table table-striped">
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Price</th>
+      <th></th>
+    </tr>
+    <tr *ngFor='let p of products | paginate: { itemsPerPage: 5, currentPage: p }'>
+      <td>{{p.id}}</td>
+      <td>{{p.Name}}</td>
+      <td>{{p.Description}}</td>
+      <td>{{p.Price}}</td>
+      <td>
+        <button class="btn btn-info" data-target="#editModal" data-toggle="modal">Edit</button>&nbsp;
+        <button class="btn btn-danger">Delete</button>
+      </td>
+    </tr>
+  </table>
+
+  <pagination-controls (pageChange)="p = $event"></pagination-controls>
+
+  <div align="center">
+    <button class="btn btn-success " data-target="#myModal" data-toggle="modal" >
+Add Product
+</button>
+  </div>
+  <div class="modal fade" id="myModal" role="dialog" align="center">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Add Product</h4>
+        </div>
+        <div class="modal-body">
+          <form id="addForm" class="form-horizontal">
+            <div class="form-group">
+              <label class="control-label col-sm-offset-1 col-sm-2">ID:</label>
+              <div class="col-sm-6">
+                <input type="number" [(ngModel)]='pId' name="pid" class="form-control" max=9999 required/> </div>
+            </div>
+
+            <div class="form-group">
+              <label class="control-label col-sm-offset-1 col-sm-2 ">Name:</label>
+              <div class="col-sm-6">
+                <input type="text" [(ngModel)]="pName" name="pname" class="form-control" required /> </div>
+            </div>
+
+            <div class="form-group">
+              <label class="control-label col-sm-offset-1 col-sm-2">Description:</label>
+              <div class="col-sm-6">
+                <input type="text" [(ngModel)]="pDes" name="pdesc" class="form-control" required /></div>
+            </div>
+
+            <div class="form-group">
+              <label class="control-label col-sm-offset-1 col-sm-2">Price:</label>
+              <div class="col-sm-6">
+                <input type="text" [(ngModel)]="pPrice" name="pcost" class="form-control" required /> </div>
+            </div>
+
+
+
+            <button type="submit" class="btn btn-info" data-dismiss="modal" (click)="AddProduct()">Submit</button>&nbsp;
+            <button class="btn btn-warning" data-dismiss="modal">Cancel</button>
+
+          </form>
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+
+  <div class="modal fade" id="editModal" role="dialog" align="center">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Edit Product Details</h4>
+        </div>
+        <div class="modal-body">
+          <form id="addForm" class="form-horizontal">
+            <div class="form-group">
+              <label class="control-label col-sm-offset-1 col-sm-2">ID:</label>
+              <div class="col-sm-6">
+                <input type="number" class="form-control" max=9999 required name="id" [(ngModel)]="proID" #id='ngModel'/> </div>
+            </div>
+
+            <div class="form-group">
+              <label class="control-label col-sm-offset-1 col-sm-2 ">Name:</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" required name="name" [(ngModel)]="proName" #name='ngModel'/> </div>
+            </div>
+
+            <div class="form-group">
+              <label class="control-label col-sm-offset-1 col-sm-2">Description:</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" required name="des" [(ngModel)]="proDes" #des='ngModel' /></div>
+            </div>
+
+            <div class="form-group">
+              <label class="control-label col-sm-offset-1 col-sm-2">Price:</label>
+              <div class="col-sm-6">
+                <input type="text" class="form-control" required  name="price" [(ngModel)]="proPrice" #price='ngModel'/> </div>
+            </div>
+
+
+
+            <button type="submit" class="btn btn-info" data-dismiss="modal">Submit</button>&nbsp;
+            <button class="btn btn-warning" data-dismiss="modal">Cancel</button>
+
+          </form>
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+  <router-outlet></router-outlet>
