@@ -58,5 +58,65 @@
         "Name": "Bed",
         "Description": "Use this to Sleep ",
         "Price"  : 10000.00
+    },
+    {
+        "id":11,
+        "Name":"Pressure Cooker",
+        "Description":"used to boil food",
+        "Price":1899.00
+    },
+    {
+        "id":12,
+        "Name":"Juicer",
+        "Description":"used to make juice",
+        "Price":1599.00
+    },
+    {
+        "id":13,
+        "Name":"Water Purifier",
+        "Description":"Used to purify water",
+        "Price":3999.00
+    },
+    {
+        "id":14,
+        "Name":"Air Conditioner",
+        "Description":"Used to cool room",
+        "Price":35999.00
+    },
+    {
+        "id":15,
+        "Name":"Dish Washer",
+        "Description":"used to wash dishes",
+        "Price":25500.00
+    },
+    {
+        "id":16,
+        "Name":"Speaker",
+        "Description":"Used to play music",
+        "Price":1599.00
+    },
+    {
+        "id":17,
+        "Name":"Matress",
+        "Description":"used on bed",
+        "Price":1500.00
+    },
+    {
+        "id":18,
+        "Name":"Television",
+        "Description":"Used for entertainment",
+        "Price":15000.00
+    },
+    {
+        "id":19,
+        "Name":"Washing Machine",
+        "Description":"Used for washing clothes",
+        "Price":9999.00
+    },
+    {
+        "id":20,
+        "Name":"Trimmer",
+        "Description":"used to trim hair",
+        "Price":1599.00
     }
 ]
